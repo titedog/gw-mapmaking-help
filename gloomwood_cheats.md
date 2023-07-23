@@ -26,6 +26,10 @@ Enabling cheats allows you to use the `infinite` command.
 cheats 1
 ```
 
+With this command, do note that `0` and `1` are equivalent to
+`false` and `true` respectively. This is true for all commands.
+
+
 ## Lists
 
 The `list` command lists all registered objects of certain types.
@@ -89,7 +93,7 @@ All items are prefixed by `item_`. This is also mandatory.
 
 *Note: As of now, the infinite command only works with ammo.*
 
-The `infinite` command allows you to give yourself an unlimited ammount
+The `infinite` command allows you to give yourself an unlimited amount
 of any resource. This works by toggling on/off the selected resource type.
 
 If we wanted to give ourselves infinite ammo, we would run this command:
@@ -97,9 +101,6 @@ If we wanted to give ourselves infinite ammo, we would run this command:
 ```
 infinite ammo 1
 ```
-
-With this command, do note that `0` and `1` are equivalent to
-`false` and `true` respectively.
 
 ## Giving yourself items and weapons
 
