@@ -2,7 +2,7 @@
 
 ## Preface
 
-This guide was created during the Fire at the Gates update!
+This guide was created during the Fire at the Gates update! Info here may be outdated in future updates.
 
 ## Currently Unknown Commands
 
