@@ -34,7 +34,17 @@ Lists all objects of certain types.
 list items
 list ai
 list prop
-list weapon 
+```
+
+Here is every valid list command:
+```
+list ai
+list corpse
+list item
+list weapon
+list pickup
+list prop
+list readable
 ```
 
 ## Spawning AIs/Enemies
