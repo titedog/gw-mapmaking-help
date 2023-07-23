@@ -8,11 +8,10 @@ This guide was created during the Fire at the Gates update!
 
 These commands have no known use.
 ```
-infinite
 place
 ```
 
-## Ingame Command List
+## Runtime Console Command List
 
 The `help` command lists every command.
 
@@ -29,12 +28,15 @@ cheats 1
 
 ## Lists
 
-Lists all objects of certain types.
+The `list` command lists all registered objects of certain types.
+This can work with many types of objects, such as `props`, `weapons`,
+`entities`, and more.
+
+If we wanted to see a list of all `items` in the game, we could run this command:
 ```
 list items
-list ai
-list prop
 ```
+And it would output every item to the `Runtime Console`.
 
 Here is every valid list command:
 ```
@@ -82,6 +84,22 @@ spawn item_medhypo 50
 ```
 
 All items are prefixed by `item_`. This is also mandatory.
+
+## Infinite Resources
+
+*Note: As of now, the infinite command only works with ammo.*
+
+The `infinite` command allows you to give yourself an unlimited ammount
+of any resource. This works by toggling on/off the selected resource type.
+
+If we wanted to give ourselves infinite ammo, we would run this command:
+
+```
+infinite ammo 1
+```
+
+With this command, do note that `0` and `1` are equivalent to
+`false` and `true` respectively.
 
 ## Giving yourself items and weapons
 
