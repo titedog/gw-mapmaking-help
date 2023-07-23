@@ -19,7 +19,7 @@ The `help` command lists every command.
 help
 ```
 
-**Enabling Cheats**
+## Enabling Cheats
 
 Enabling cheats allows you to use the `infinite` command.
 ```
