@@ -1,6 +1,7 @@
 <img src="/assets/cheattitle.png">
-
+<hr>
 <p align="center"><i>This guide was last updated on 7/24/2023</i></p>
+
 
 ## Preface
 
@@ -81,6 +82,7 @@ spawn ai_fishdog 20
 ```
 
 Now, following that logic, if we wanted to spawn an armored huntsman with a rifle, we would run the following:
+
 ```
 spawn ai_huntsman_armored_rifle
 ```
@@ -89,7 +91,7 @@ All AIs/enemies are prefixed by `ai_`. This is mandatory.
 
 ## Spawning Items 
 
-*Note: Spawning items is different from giving yourself items. The give command places items directly in your inventory, while the spawn command actually spawns in the item as a physics object (entity)*
+*Note: Spawning items is different from giving yourself items. The `give` command places items directly in your inventory, while the spawn command actually spawns in the item as a physics object (entity)*
 
 Spawning items is also done with the `spawn` command.
 
@@ -148,7 +150,21 @@ Or alternatively, just running the command with no arguments will toggle it on/o
 
 ## Giving yourself items and weapons
 
-*TODO*
+Giving yourself items is similar to spawning items. The only difference is that items are placed in your inventory, instead of becoming physics objects.
+
+Let's say we want to give ourselves 24 red gem brooches. The command to run would be:
+
+```
+give item_brooch_1 24
+```
+
+Giving yourself coins is also quite easy. Want to give yourself the max amount of coins (9999)? Want to buy out the Merchant's shop? Run this command:
+
+```
+give item_coin 9999
+```
+
+*Note: Items that do not fit in your inventory, or do not go in your inventory will be spawned directly on top of you. This includes coins.*
 
 ## Miscellaneous commands
 
