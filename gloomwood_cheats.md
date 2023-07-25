@@ -23,7 +23,7 @@ The `help` command lists every command.
 help
 ```
 
-**Enabling Cheats**
+## Enabling Cheats
 
 Enabling cheats allows you to use the `infinite` command.
 Just like other `true/false` arguments for some of the other
@@ -33,6 +33,9 @@ cheats 1
 ```
 
 As of now, this is the only known use of the `cheats` command.
+
+With this command, do note that `0` and `1` are equivalent to
+`false` and `true` respectively. This is true for all commands.
 
 ## Lists
 
@@ -102,7 +105,7 @@ All items are prefixed by `item_`. This is also mandatory.
 
 *Note: As of now, the infinite command only works with ammo.*
 
-The `infinite` command allows you to give yourself an unlimited ammount
+The `infinite` command allows you to give yourself an unlimited amount
 of any resource. This works by toggling on/off the selected resource type.
 
 If we wanted to give ourselves infinite ammo, we would run this command:
@@ -111,9 +114,6 @@ If we wanted to give ourselves infinite ammo, we would run this command:
 infinite ammo 1
 ```
 
-With this command, do note that `0` and `1` are equivalent to
-`false` and `true` respectively.
-
 ## Placing Markers
 *Note: At the time of writing this, `marker` is the only use input you can provide to the `place` command.*
 
@@ -121,6 +121,7 @@ However, you can still use it to get coordinates
 of an area easily.
 
 To run it, you would use the following syntax:
+
 ```
 place marker
 ```
@@ -131,12 +132,14 @@ This would place a `RuntimeMarker` entity at the players position.
 
 There are some commands that allow you to easily modify the way the game/your player behaves. Below are some examples of the commands:
 
-The god command makes your player invulnerable to all damage. If we wanted to turn on `God Mode`, we would run the following:
+The god command makes your player invulnerable to all damage. If we wanted to turn on godmode, we would run the following:
+
 ```
 god
 ```
 
 The thief command will remove all footstep noises and remove having to have a key to unlock doors. If we wanted to turn `Thief Mode` on, we would run the following:
+
 ```
 thief 1
 ```
