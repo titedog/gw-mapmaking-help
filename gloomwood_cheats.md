@@ -8,7 +8,7 @@ This guide was created during the Fire at the Gates update! Some information may
 
 ## The Runtime Console
 
-The Runtime Console is a console that `Gloomwood` uses to provide you with a set of commands to modify gameplay features, spawn entites, and more. It is an essential tool for anyone looking to mess with their game, or to make custom saves.
+The Runtime Console is a console that Gloomwood uses to provide you with a set of commands to modify gameplay features, spawn entities, and more. It is an essential tool for anyone looking to mess with their game, or to make custom saves.
 
 ## Unknown Commands
 
@@ -26,22 +26,22 @@ help
 ## Enabling Cheats
 
 Enabling cheats allows you to use the `infinite` command.
-Just like other `true/false` arguments for some of the other
-`RuntimeConsole` commands, `1` is `true` and `0` is `false`.
+
 ```
 cheats 1
 ```
 
 As of now, this is the only known use of the `cheats` command.
 
-With this command, do note that `0` and `1` are equivalent to
-`false` and `true` respectively. This is true for all commands.
+With this command, do note that `1` and `0` are equivalent to true and false respectively. 
+This is the same case for all other commands. 
+You cannot use `true` and `false` as arguments.
 
 ## Lists
 
 The `list` command lists all registered objects of certain types.
-This can work with many types of objects, such as `props`, `weapons`,
-`entities`, and more.
+This can work with many types of objects, such as props, weapons,
+enemies, and more.
 
 If we wanted to see a list of all `item`s in the game, we could run this command:
 ```
@@ -74,7 +74,7 @@ To spawn a `fishdog`, type and run this command:
 spawn ai_fishdog
 ```
 
-However, one fishdog is boring.. why not have 20? Well, to spawn `20 fishdogs`, type and run this command:
+However, one fishdog is boring... why not have 20? Well, to spawn 20 fishdogs, type and run this command:
 
 ```
 spawn ai_fishdog 20
