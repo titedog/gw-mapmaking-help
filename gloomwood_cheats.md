@@ -8,7 +8,7 @@ This guide was created during the Fire at the Gates update! Some information may
 
 ## The Runtime Console
 
-The `RuntimeConsole` is a console that `Gloomwood` uses to provide you with a set of commands to modify gameplay features, spawn entites, and more. It is an essential tool for anyone looking to mess with their game, or to make custom saves.
+The Runtime Console is a console that `Gloomwood` uses to provide you with a set of commands to modify gameplay features, spawn entites, and more. It is an essential tool for anyone looking to mess with their game, or to make custom saves.
 
 ## Unknown Commands
 
@@ -47,7 +47,7 @@ If we wanted to see a list of all `items` in the game, we could run this command
 ```
 list items
 ```
-And it would output every item to the `Runtime Console`.
+And it would output every item to the Runtime Console.
 
 Here is every valid list command:
 ```
