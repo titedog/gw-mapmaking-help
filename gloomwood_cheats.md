@@ -138,7 +138,7 @@ The god command makes your player invulnerable to all damage. If we wanted to tu
 god
 ```
 
-The thief command will remove all footstep noises and allows you to unlock doors without the key. If we wanted to turn `Thief Mode` on, we would run the following:
+The thief command will remove all footstep noises and allows you to unlock doors without the key. If we wanted to turn thief mode on, we would run the following:
 
 ```
 thief 1
@@ -150,7 +150,9 @@ Or alternatively, just running the command with no arguments will toggle it on/o
 
 *TODO*
 
-## Miscellaneous cheats
+## Miscellaneous commands
+
+This section is for commands that don't fit into the other categories.
 
 *TODO*
 
