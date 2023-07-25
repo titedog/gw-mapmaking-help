@@ -1,17 +1,21 @@
 # The Gloomwood "Comprehensive" Guide To Cheating
 
+*This guide was last updated on 7/24/2023*
+
 ## Preface
 
-This guide was created during the Fire at the Gates update!
+This guide was created during the Fire at the Gates update! Some information may be incorrect or only applicable to earlier versions of the game! We are trying our best to update it when newer features come out!
 
-## Currently Unknown Commands
+## The Runtime Console
 
-These commands have no known use.
-```
-place
-```
+The `RuntimeConsole` is a console that `Gloomwood` uses to provide you with a set of commands to modify gameplay features, spawn entites, and more. It is an essential tool for anyone looking to mess with their game, or to make custom saves.
 
-## Runtime Console Command List
+## Unknown Commands
+
+There are currently no new commands that their purposes
+are unknown, but some are currently undocumented.
+
+## Getting a list of all commands
 
 The `help` command lists every command.
 
@@ -22,9 +26,13 @@ help
 **Enabling Cheats**
 
 Enabling cheats allows you to use the `infinite` command.
+Just like other `true/false` arguments for some of the other
+`RuntimeConsole` commands, `1` is `true` and `0` is `false`.
 ```
 cheats 1
 ```
+
+As of now, this is the only known use of the `cheats` command.
 
 ## Lists
 
@@ -57,23 +65,28 @@ Spawning entities is done with the `spawn` command.
 
 For an example, let's spawn 20 fishdogs.
 
-To spawn a fishdog, type and run this command:
+To spawn a `fishdog`, type and run this command:
 
 ```
 spawn ai_fishdog
 ```
 
-To spawn 20 fishdogs, type and run this command:
+However, `one` fishdog is boring.. why not have 20? Well, to spawn `20 fishdogs`, type and run this command:
 
 ```
 spawn ai_fishdog 20
+```
+
+Now, following that logic, if we wanted to spawn an `armored huntsman` with a `rifle`, we would run the following:
+```
+spawn ai_huntsman_armored_rifle
 ```
 
 All AIs/enemies are prefixed by `ai_`. This is mandatory.
 
 ## Spawning Items 
 
-*Note: spawning items is different from giving yourself items.*
+*Note: Spawning items is different from giving yourself items. The give command places items directly in your inventory, while the spawn command actually spawns in the item as a physics object (entity)*
 
 Spawning items is also done with the `spawn` command.
 
@@ -100,6 +113,34 @@ infinite ammo 1
 
 With this command, do note that `0` and `1` are equivalent to
 `false` and `true` respectively.
+
+## Placing Markers
+*Note: At the time of writing this, `marker` is the only use input you can provide to the `place` command.*
+
+However, you can still use it to get coordinates
+of an area easily.
+
+To run it, you would use the following syntax:
+```
+place marker
+```
+
+This would place a `RuntimeMarker` entity at the players position.
+
+## Altering game mechanics
+
+There are some commands that allow you to easily modify the way the game/your player behaves. Below are some examples of the commands:
+
+The god command makes your player invulnerable to all damage. If we wanted to turn on `God Mode`, we would run the following:
+```
+god
+```
+
+The thief command will remove all footstep noises and remove having to have a key to unlock doors. If we wanted to turn `Thief Mode` on, we would run the following:
+```
+thief 1
+```
+Or alternatively, just running the command with no arguments will toggle it `on/off`.
 
 ## Giving yourself items and weapons
 
