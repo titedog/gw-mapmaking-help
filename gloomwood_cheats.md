@@ -15,7 +15,7 @@ The Runtime Console is a console that `Gloomwood` uses to provide you with a set
 There are currently no new commands that their purposes
 are unknown, but some are currently undocumented.
 
-## Getting a list of all commands
+## Obtaining a list of all commands
 
 The `help` command lists every command.
 
@@ -43,7 +43,7 @@ The `list` command lists all registered objects of certain types.
 This can work with many types of objects, such as `props`, `weapons`,
 `entities`, and more.
 
-If we wanted to see a list of all `items` in the game, we could run this command:
+If we wanted to see a list of all `item`s in the game, we could run this command:
 ```
 list items
 ```
@@ -62,7 +62,7 @@ list readable
 
 ## Spawning AIs/Enemies
 
-This is where it gets interesting.
+This is where things get interesting.
 
 Spawning entities is done with the `spawn` command.
 
@@ -74,13 +74,13 @@ To spawn a `fishdog`, type and run this command:
 spawn ai_fishdog
 ```
 
-However, `one` fishdog is boring.. why not have 20? Well, to spawn `20 fishdogs`, type and run this command:
+However, one fishdog is boring.. why not have 20? Well, to spawn `20 fishdogs`, type and run this command:
 
 ```
 spawn ai_fishdog 20
 ```
 
-Now, following that logic, if we wanted to spawn an `armored huntsman` with a `rifle`, we would run the following:
+Now, following that logic, if we wanted to spawn an armored huntsman with a rifle, we would run the following:
 ```
 spawn ai_huntsman_armored_rifle
 ```
@@ -115,10 +115,10 @@ infinite ammo 1
 ```
 
 ## Placing Markers
+
 *Note: At the time of writing this, `marker` is the only use input you can provide to the `place` command.*
 
-However, you can still use it to get coordinates
-of an area easily.
+However, you can still use it to get coordinates of an area easily.
 
 To run it, you would use the following syntax:
 
@@ -138,12 +138,13 @@ The god command makes your player invulnerable to all damage. If we wanted to tu
 god
 ```
 
-The thief command will remove all footstep noises and remove having to have a key to unlock doors. If we wanted to turn `Thief Mode` on, we would run the following:
+The thief command will remove all footstep noises and allows you to unlock doors without the key. If we wanted to turn `Thief Mode` on, we would run the following:
 
 ```
 thief 1
 ```
-Or alternatively, just running the command with no arguments will toggle it `on/off`.
+
+Or alternatively, just running the command with no arguments will toggle it on/off.
 
 ## Giving yourself items and weapons
 
