@@ -1,6 +1,6 @@
-# The Gloomwood "Comprehensive" Guide To Cheating
+<img src="/assets/cheattitle.png">
 
-*This guide was last updated on 7/24/2023*
+<p align="center"><i>This guide was last updated on 7/24/2023</i></p>
 
 ## Preface
 
