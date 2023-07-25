@@ -130,7 +130,7 @@ place marker
 
 This would place a `RuntimeMarker` entity at the players position.
 
-## Altering game mechanics
+## General cheating
 
 There are some commands that allow you to easily modify the way the game/your player behaves. Below are some examples of the commands:
 
@@ -165,6 +165,59 @@ give item_coin 9999
 ```
 
 *Note: Items that do not fit in your inventory, or do not go in your inventory will be spawned directly on top of you. This includes coins.*
+
+## Disabling and reenabling HUD elements
+
+Managing HUD elementsis done with the `hud` command.
+
+To disable/reenable the entire hud, use the `none` flag:
+```
+hud none 0
+hud none 1
+```
+
+*Note: `0` disables the hud element, `1` enables the hud elements.*
+
+To disable/reenable your cursor, use the `cursor` flag:
+
+```
+hud cursor 1
+```
+
+To disable/reenable your crosshair, use the `crosshair` flag:
+
+```
+hud crosshair 0
+```
+
+To disable/reenable the unused stealth meter, use the `visibility` flag:
+
+```
+hud visibility 1
+```
+
+## Saving and loading files
+
+Saving files is done with the `savegame` command. To save to slot 4, run this command:
+
+```
+savegame 4
+```
+
+Loading files is done with the `loadgame` command. To load slot 4, run this command:
+
+```
+loadgame 4
+```
+
+You can save and load files outside of the 0-9 range.
+
+```
+savegame 100
+loadgame -20
+```
+
+You cannot save games with strings (text) as the save ID.
 
 ## Miscellaneous commands
 
